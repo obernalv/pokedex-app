@@ -1,0 +1,143 @@
+.card{
+    width: 100%;
+    max-width: 25em;
+    border: 0.5em solid #ccc;
+    border-radius: 1em;
+    
+}
+
+.card__header{
+    background-color: blueviolet;
+    aspect-ratio: 2;
+    width: 100%;
+    position: relative;
+    border-radius: 0.4em;
+
+    /* display: flex;
+    justify-content: center; */
+}
+
+.card__img{
+    position: absolute;
+    width: 55%;
+
+    /* mejorar mala practica*/
+    top: 2em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card__principal{
+    margin-top: 3.5em;
+}
+
+.card__name{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+}
+
+.card__types{
+    --gap-types: 1.4rem;
+    display: flex;
+    justify-content: center;
+    gap: var(--gap-types);
+    
+}
+
+
+.card__type:not(:nth-child(1))::before{
+    content: '/';
+    padding-right: var(--gap-types);
+}
+
+.card__hr{
+    --margin-y: 0.8em;
+    margin-top: var(--margin-y);
+    margin-bottom: var(--margin-y);
+    border-top: 1px solid #ccc;
+    margin-inline: 2em;
+}
+
+.card__stat{
+    padding: 1em 1em 2em;
+}
+
+.card__list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1.5em;
+}
+
+.card__stat{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    align-items: center;
+}
+
+.card__stat__label{
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
+.card__stat__value{
+    font-size: 1.2rem;
+    font-weight: 300;
+
+}
+
+
+.bg-grass{
+    background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+}
+
+.gb-fire{
+    background: linear-gradient(179.75deg, #971B45 -19.96%, #C23867 43.67%, #CD7D98 138.4%);
+
+}
+
+.gb-water{
+    background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+
+}
+
+.gb-electric{
+    background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+}
+
+.color-electric{
+    color: rgb(226, 226, 39);
+}
+
+.color-water{
+    color: rgb(84, 15, 245);
+}
+
+.color-fire{
+    color: rgb(223, 27, 21);
+}
+
+.color-grass{
+    color: rgb(21, 201, 15);
+}
+
+/**/
+
+.border-electric{
+    color: rgb(226, 226, 39);
+}
+
+.border-water{
+    color: rgb(84, 15, 245);
+}
+
+.border-fire{
+    color: rgb(223, 27, 21);
+}
+
+.border-grass{
+    color: rgb(21, 201, 15);
+}

@@ -1,0 +1,12 @@
+
+.cmb-pokemon{
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 0.4em;
+    overflow-y: auto;
+}
+
+.cmb-pokemon option,s {
+
+    overflow: hidden;
+}

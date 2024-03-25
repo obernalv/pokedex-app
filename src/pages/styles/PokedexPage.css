@@ -1,0 +1,34 @@
+.container-search{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.search-content{
+    display: flex;
+    margin-bottom: 3em;
+
+}
+
+.welcome-text{
+    font-weight: bold;
+    color: var(--color-red);
+    font-size: 1.2em;
+    letter-spacing: 0.05em;
+}
+
+.input-search{
+    font-size: 1em;
+    border: none;
+    border-bottom: 1px solid #c7c7c7;
+    box-shadow: 0 1px #ccc;
+    height: 100%;
+
+    &::placeholder {
+        opacity: 0.3;
+    }
+
+}
+

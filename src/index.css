@@ -1,0 +1,41 @@
+*{
+    scroll-behavior: smooth;
+
+    --color-red:rgb(221 26 26);
+    --color-white: rgb(255 255 255);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Murecho", sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+h1, h2, h3, ul, hr, p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+input{
+    outline: 0;
+}
+
+input, button, select{
+    font-family: inherit;
+}
+
+image{
+    display: block;
+    max-width: 100%;
+}
