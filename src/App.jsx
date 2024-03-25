@@ -12,8 +12,7 @@ function App() {
   //recibe como parametro una funcion callback todos los estado globales(Store, states), 
   //esos nombres se le  puede dar
   const estado = useSelector(store => store.trainer)
-
-  return (
+    return (
 
     <div>
       <Routes >

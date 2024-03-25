@@ -10,7 +10,7 @@ const ListPokemons = ({ pokemons }) => {
   const [xPagina, setXPagina] = useState(6)
 
    //const maximo = Math.floor(pokemons?.length / xPagina)
-   const maximo = Math.ceil(pokemons?.length / xPagina);
+  const maximo = Math.ceil(pokemons?.length / xPagina);
 
   return (
     <div className='container-card'>
