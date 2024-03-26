@@ -101,7 +101,6 @@
     background: linear-gradient(179.75deg, rgb(255 129 0) 10.0%, rgb(255 191 127) 30.0%, #fff 85.0%);
 }
 
-
 .bg-flying{
     background: linear-gradient(179.75deg, rgb(130 186 240) 10.0%, rgb(192 220 247) 30.0%, #fff 85.0%);
 }
@@ -120,6 +119,34 @@
 
 .bg-bug{
     background: linear-gradient(179.75deg, rgb(146 162 18) 10.0%, rgb(200 208 136) 30.0%, #fff 85.0%);
+}
+
+.bg-ghost{
+    background: linear-gradient(179.75deg, rgb(113 63 113) 10.0%, rgb(183 158 183) 30.0%, #fff 85.0%);
+}
+
+.bg-steel{
+    background: linear-gradient(179.75deg, rgb(96 162 185) 10.0%, rgb(175 208 219) 30.0%, #fff 85.0%);
+}
+
+.bg-psychic{
+    background: linear-gradient(179.75deg, rgb(239 63 122) 10.0%, rgb(246 158 188) 30.0%, #fff 85.0%);
+}
+
+.bg-ice{
+    background: linear-gradient(179.75deg, rgb(61 217 255) 10.0%, rgb(157 235 255) 30.0%, #fff 85.0%);
+}
+
+.bg-dragon{
+    background: linear-gradient(179.75deg, rgb(79 96 226) 10.0%, rgb(166 175 240) 30.0%, #fff 85.0%);
+}
+
+.bg-dark{
+    background: linear-gradient(179.75deg, rgb(0 0 0) 10.0%, rgb(169 169 169) 30.0%, #fff 85.0%);
+}
+
+.bg-fairy{
+    background: linear-gradient(179.75deg, rgb(239 113 240) 10.0%, rgb(246 183 247) 30.0%, #fff 85.0%);
 }
 
 /*------------------------------------------------------------------------*/
@@ -176,6 +203,34 @@
     color: rgb(146 162 18);
 }
 
+.color-ghost{
+    color: rgb(113 63 113);
+}
+
+.color-steel{
+    color: rgb(96 162 185);
+}
+
+.color-psychic{
+    color: rgb(239 63 122);
+}
+
+.color-ice{
+    color: rgb(61 217 255);
+}
+
+.color-dragon{
+    color: rgb(79 96 226);
+}
+
+.color-dark{
+    color: rgb(169 169 169);
+}
+
+.color-fairy{
+    color: rgb(239 113 240);
+}
+
 .color-electric{
     color: rgb(226 226 39);
 }
@@ -219,7 +274,35 @@
 }
 
 .border-bug{
-   border-color: rgb(146 162 18 / 0.2);
+    border-color: rgb(146 162 18 / 0.2);
+}
+
+.border-ghost{
+    border-color: rgb(113 63 113 / 0.2);
+}
+
+.border-steel{
+    border-color: rgb(96 162 185 / 0.2);
+}
+
+.border-psychic{
+    border-color: rgb(239 63 122 / 0.2);
+}
+
+.border-ice{
+    border-color: rgb(61 217 255 / 0.2);
+}
+
+.border-dragon{
+    border-color:  rgb(79 96 226 / 0.2);
+}
+
+.border-dark{
+    border-color: rgba(169 169 169 / 0.2);
+}
+
+.border-fairy{
+    border-color: rgb(239 113 240 / 0.2);
 }
 
 .border-electric{

@@ -9,7 +9,7 @@ const useFetch = url => {
     const getApi =() => {
         axios.get(url)
         .then(r => {
-            setResponse(r.data)  
+            setResponse(r.data)
         })
         .catch(er =>console.log(er))
         .finally(() => setIsLoading(false))
