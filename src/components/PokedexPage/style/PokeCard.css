@@ -3,11 +3,11 @@
     max-width: 25em;
     border: 0.5em solid #ccc;
     border-radius: 1em;
-    
+
 }
 
 .card__header{
-    background-color: blueviolet;
+
     aspect-ratio: 2;
     width: 100%;
     position: relative;
@@ -57,8 +57,9 @@
     --margin-y: 0.8em;
     margin-top: var(--margin-y);
     margin-bottom: var(--margin-y);
-    border-top: 1px solid #ccc;
+    border-top: 0.1em solid #ccc;
     margin-inline: 2em;
+
 }
 
 .card__stat{
@@ -81,63 +82,158 @@
 .card__stat__label{
     font-size: 0.7em;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .card__stat__value{
     font-size: 1.2rem;
-    font-weight: 300;
+    font-weight: 500;
 
 }
 
+/* Color de Fondo*/
+
+.bg-normal{
+    background: linear-gradient(179.75deg, rgb(160 162 160) 10.0% , rgb(207 207 207) 30.0%, #fff 85.0% );
+}
+
+.bg-fighting{
+    background: linear-gradient(179.75deg, rgb(255 129 0) 10.0%, rgb(255 191 127) 30.0%, #fff 85.0%);
+}
+
+
+.bg-flying{
+    background: linear-gradient(179.75deg, rgb(130 186 240) 10.0%, rgb(192 220 247) 30.0%, #fff 85.0%);
+}
+
+.bg-poison{
+    background: linear-gradient(179.75deg, rgb(146 63 204) 10.0%, rgb(200 158 229) 30.0%, #fff 85.0%);
+}
+
+.bg-ground{
+    background: linear-gradient(179.75deg, rgb(146 80 27) 10.0%,  rgb(200 167 140) 30.0%, #fff 85.0%);
+}
+
+.bg-rock{
+    background: linear-gradient(179.75deg, rgb(176 171 130) 10.0%, rgb(215 212 192) 30.0%, #fff 85.0%);
+}
+
+.bg-bug{
+    background: linear-gradient(179.75deg, rgb(146 162 18) 10.0%, rgb(200 208 136) 30.0%, #fff 85.0%);
+}
+
+/*------------------------------------------------------------------------*/
 
 .bg-grass{
-    background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+    background: linear-gradient(177.56deg, #62DB60 10.0%, #b6f1b5 30.0%, #fffeff 85.0%);
 }
 
-.gb-fire{
-    background: linear-gradient(179.75deg, #971B45 -19.96%, #C23867 43.67%, #CD7D98 138.4%);
-
-}
-
-.gb-water{
-    background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+.bg-fire{
+    background: linear-gradient(179.75deg, #971B45 10.0%, #C23867 30.0%, #fffeff 85.0%);
 
 }
 
-.gb-electric{
-    background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+
+.bg-water{
+    background: linear-gradient(179.57deg, #133258 10.0%, #1479FB 30.0%, #fffeff 85.0%);
+
+}
+
+.bg-electric{
+    background: linear-gradient(179.57deg, #e1f33b 10.0%, #def771 30.0%, #fffeff 85.0%);
+}
+
+
+
+
+/* Color de Textos*/
+
+.color-normal{
+    color:rgb(160 162 160);
+}
+
+.color-fighting{
+    color: rgb(255 129 0);
+}
+
+.color-flying{
+    color: rgb(130 186 240);
+}
+
+.color-poison{
+    color: rgb(146 63 204);
+}
+
+.color-ground{
+    color: rgb(146 80 27);
+}
+
+.color-rock{
+    color: rgb(176 171 130);
+}
+
+.color-bug{
+    color: rgb(146 162 18);
 }
 
 .color-electric{
-    color: rgb(226, 226, 39);
+    color: rgb(226 226 39);
 }
 
 .color-water{
-    color: rgb(84, 15, 245);
+    color: rgb(84 15 245);
 }
 
 .color-fire{
-    color: rgb(223, 27, 21);
+    color: rgb(223 27 21);
 }
 
 .color-grass{
-    color: rgb(21, 201, 15);
+    color: rgb(21 201 15);
 }
 
-/**/
+/* Color de Bordes*/
+
+.border-normal{
+    border-color: rgba(160 162 160 / 0.2);
+}
+
+.border-fighting{
+    border-color: rgba(255 129 0 / 0.2) ;
+}
+
+.border-flying{
+    border-color: rgba(130 186 240 / 0.2);
+}
+
+.border-poison{
+    border-color: rgba(146 63 204 / 0.2);
+}
+
+.border-ground{
+    border-color: rgba(146 80 27 / 0.2);
+}
+
+.border-rock{
+    border-color: rgba(176 171 130 / 0.2);
+}
+
+.border-bug{
+   border-color: rgb(146 162 18 / 0.2);
+}
 
 .border-electric{
-    color: rgb(226, 226, 39);
+    border-color: rgba(226 226 39 / 0.2);
 }
 
 .border-water{
-    color: rgb(84, 15, 245);
+    border-color: rgb(84 15 245 /0.2) ;
 }
 
 .border-fire{
-    color: rgb(223, 27, 21);
+    border-color: rgb(223 27 21 / 0.2);
 }
 
 .border-grass{
-    color: rgb(21, 201, 15);
+    border-color: rgba(93 247 93 / 0.2);
 }
