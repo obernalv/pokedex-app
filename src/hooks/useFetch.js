@@ -7,6 +7,7 @@ const useFetch = url => {
     const [isLoading, setIsLoading] = useState(true);
 
     const getApi =() => {
+        setIsLoading(true)
         axios.get(url)
         .then(r => {
             setResponse(r.data)
@@ -16,16 +17,14 @@ const useFetch = url => {
     }
 
     const getApiTypes = (urlType) =>{
+        setIsLoading(true)
         axios.get(urlType)
         .then(res => {
 
-            setTimeout(() => {
-                    
-                const obj = {
-                    results: res.data.pokemon.map(poke =>poke.pokemon)
-                }
-                setResponse(obj)
-            }, 5000);
+            const obj = {
+                results: res.data.pokemon.map(poke =>poke.pokemon)
+            }
+            setResponse(obj)
 
             
         })

@@ -3,7 +3,7 @@
     max-width: 25em;
     border: 0.5em solid #ccc;
     border-radius: 1em;
-
+    cursor: pointer;
 }
 
 .card__header{

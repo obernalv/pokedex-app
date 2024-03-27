@@ -59,7 +59,10 @@ const PokedexPage = () => {
         </div>
       </div>
 
-      <ListPokemons pokemons={pokemonFiltered} />
+      {
+        isLoading ? <Loader /> :
+        (<ListPokemons pokemons={pokemonFiltered} />)
+      }
 
     </div>
 
