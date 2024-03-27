@@ -1,0 +1,16 @@
+
+.content-notfound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notfound__icono{
+    width: 10em;
+}
+
+.notfound__sms{
+    text-align: center;
+    margin-left: 1em;
+    color: rgb(221 26 26);
+    letter-spacing: 0.03em;
+}
